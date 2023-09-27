@@ -48,8 +48,8 @@ body {
 .menu {
     list-style: none;
     text-decoration: none;
-    margin: 0;
-    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
     display: flex;
 }
 
@@ -62,7 +62,7 @@ body {
 .menu li a {
     text-decoration: none;
     color: white;
-    font-size: 3vh;
+    font-size: 3.5vh;
     position: relative;
 }
 
@@ -87,6 +87,7 @@ body {
 
 
 #gallery {
+    margin-top: 25px;
     -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
@@ -152,10 +153,8 @@ body {
 .img-responsive {
     border-radius: 10px;
     border: 2px solid black;
-    transition: border 0.3s; 
 }
 
 .img-responsive:hover {
     border: 2px solid white;
-    transition-delay: 2s;
 }

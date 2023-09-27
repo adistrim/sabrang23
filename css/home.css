@@ -349,8 +349,10 @@ body {
 
 /* Footer styles Start */
 hr {
-    border: 1px solid #fff; /* Set the line color and thickness */
-    margin: 2px 0; /* Add space above and below the line */
+    border: 1px solid #fff;
+    /* Set the line color and thickness */
+    margin: 2px 0;
+    /* Add space above and below the line */
 }
 
 footer {
@@ -431,11 +433,4 @@ h3 {
     bottom: 0;
     right: 0;
     z-index: 1;
-    /* width: 100%; */
-    /* height: 100%; */
-    /* background-color: #b61924; */
-    /* background-image: url(""); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-position: 50% 50%; */
-  }
+}
