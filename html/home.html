@@ -8,6 +8,7 @@
     <title>Sabrang'23 - Like Never Before</title>
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
 </head>
 
 <body>
@@ -17,15 +18,34 @@
             <div class="logo">
                 <a href="../index.html"><img src="../sources/sabrang-logo.png" alt="sabrang logo"></a>
             </div>
-                <ul class="menu">
-                    <li><a href="../html/home.html">HOME</a></li>
-                    <li><a href="/html/events.html">EVENTS</a></li>
-                    <li><a href="/html/team.html">TEAM</a></li>
-                    <li><a href="/html/gallery.html">GALLERY</a></li>
-                    <li><a href="/html/sponsors.html">SPONSORS</a></li>
-                </ul>
-            </div>
+            <!-- Mobile menu button -->
+        <div class="mobile-menu-button">
+            <div class="menu-icon">&#9776;</div>
         </div>
+        
+  
+        <!-- Mobile menu (hidden by default) -->
+        <nav class="mobile-nav">
+            <ul class="mobile-menu-list">
+                <li><a href="../html/home.html">HOME</a></li>
+                <li><a href="https://event.jklu.edu.in/">REGISTER</a></li>
+                <li><a href="/html/events.html">EVENTS</a></li>
+                <li><a href="/html/team.html">TEAM</a></li>
+                <li><a href="/html/gallery.html">GALLERY</a></li>
+                <li><a href="/html/sponsors.html">SPONSORS</a></li>
+            </ul>
+        </nav>
+            <ul class="menu">
+                <li><a href="../html/home.html">HOME</a></li>
+                <li><a href="https://event.jklu.edu.in/">REGISTER</a></li>
+                <li><a href="/html/events.html">EVENTS</a></li>
+                <li><a href="/html/team.html">TEAM</a></li>
+                <li><a href="/html/gallery.html">GALLERY</a></li>
+                <li><a href="/html/sponsors.html">SPONSORS</a></li>
+            </ul>
+        </div>
+
+        
     </header>
 
     <div id="particles-js"></div>
@@ -134,14 +154,16 @@
         </div>
         <div class="copyright">
             <p>&copy; 2023 Sabrang. All rights reserved.</p>
-            <p>Created by <strong><a style="text-decoration: none; color: white;"
-                        href="https://github.com/adistrim">@adistrim</a></strong>, <strong>Vaibhav Chauhan</strong></p>
+            <!-- <p>Created by <strong><a style="text-decoration: none; color: white;"
+                        href="https://github.com/adistrim">@adistrim</a></strong>, <strong>Vaibhav Chauhan</strong></p> -->
         </div>
     </footer>
 
     <script src="../js/home.js"></script>
     <script src="../js/particles.min.js"></script>
     <script src="../js/particles-custom.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script>
 </body>
 
 </html>
